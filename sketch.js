@@ -40,10 +40,13 @@ ground.display();
 dustbinB.display();
 dustbinL.display();
 dustbinR.display();
-
   drawSprites();
  
 }
+
+
+
+
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
 
@@ -51,5 +54,4 @@ function keyPressed() {
   
 	}
 }
-
 

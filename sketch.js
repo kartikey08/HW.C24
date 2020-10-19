@@ -40,14 +40,16 @@ ground.display();
 dustbinB.display();
 dustbinL.display();
 dustbinR.display();
-if(keyCode === UP_ARROW) {
-	Matter.Body.applyForce(paper.body, paper.body.position, {x:8.5, y:-8.5});
-}	
 
   drawSprites();
  
 }
+function keyPressed() {
+	if (keyCode === UP_ARROW) {
 
-
+	  Matter.Body.applyForce(paper.body,paper.body.position,{x:110,y:-90});
+  
+	}
+}
 
 
